@@ -1,0 +1,6 @@
+body {
+  background-color: #f9fafb; /* soft white */
+  color: #1f2937; /* gray-800 for readable text */
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+}

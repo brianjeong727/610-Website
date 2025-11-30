@@ -5,6 +5,7 @@ import Project2 from "./components/Project2";
 import About from "./components/About";
 import ReflectiveEssay from "./components/ReflectiveEssay";
 import AIUse from "./components/AIUse";
+import React from "react";
 
 function App() {
   return (

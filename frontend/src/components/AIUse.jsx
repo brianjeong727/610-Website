@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function AIUse() {
   return (
     <section id="aiuse" className="max-w-4xl mx-auto py-24 px-6 animate-fadeIn">

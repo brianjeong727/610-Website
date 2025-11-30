@@ -1,6 +1,6 @@
-import React from "react";
 import { useState } from "react";
 import apple from "../assets/apple.png";
+import React from "react";
 
 export default function Project1() {
   const [expanded, setExpanded] = useState(false);

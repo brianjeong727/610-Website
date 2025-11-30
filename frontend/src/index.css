@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-link {
+  color: #1f2937; /* gray-800 */
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.nav-link:hover {
+  color: #34D399;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #34D399;
+  transition: width 0.25s ease;
+  border-radius: 4px;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
